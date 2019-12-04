@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @desc: 经纪人切面
  * @author: CSH
  **/
-//@Aspect
+@Aspect
 @Component
 public class BrokerAspect {
 

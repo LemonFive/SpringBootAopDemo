@@ -33,7 +33,7 @@ public class AopController {
     }
 
     @RequestMapping(value = "/Durant/{point}")
-    public void Durant(@PathVariable("point")  int point){
+    public void Durant(@PathVariable("point")  int test){
         System.out.println("杜兰特上场打球了！！");
     }
 }
